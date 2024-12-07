@@ -1,6 +1,6 @@
 # AWS-Exploratory-Data-Analysis-Thilina-UCW
  
-**Project Description:** Exploratory Data Analysis (EDA) on Property Tax Report - City of Vancouver
+**Project Description:** Exploratory Data Analysis (EDA) on Property Tax Report - City of Vancouver\n
 
 **Project Title:** Emphasis on Land values on legal types: An Exploratory Data Analysis
 **Objective:** The primary goal of this project is to perform an exploratory data analysis (EDA) on the Property Tax dataset to uncover patterns, trends, and insights related to land values. By analyzing various features such as legal type, previous value, and current value, we aim to understand how property valuation has changed.
