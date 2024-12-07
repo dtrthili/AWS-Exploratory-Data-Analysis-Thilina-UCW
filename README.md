@@ -18,6 +18,7 @@
 **Methodology:**
 
 **1-	Data Collection and Preparation:**
+
 o	Download the Property Tax report from the City of Vancouver - Open Data Portal (https://opendata.vancouver.ca/explore/dataset/property-tax-report/information/?sort=-tax_assessment_year&refine.zoning_classification=Limited+Agriculture&dataChart=eyJxdWVyaWVzIjpbeyJjb25maWciOnsiZGF0YXNldCI6InByb3BlcnR5LXRheC1yZXBvcnQiLCJvcHRpb25zIjp7InNvcnQiOiItdGF4X2Fzc2Vzc21lbnRfeWVhciIsInJlZmluZS56b25pbmdfY2xhc3NpZmljYXRpb24iOiJMaW1pdGVkIEFncmljdWx0dXJlIn19LCJjaGFydHMiOlt7ImFsaWduTW9udGgiOnRydWUsInR5cGUiOiJjb2x1bW4iLCJmdW5jIjoiQ09VTlQiLCJ5QXhpcyI6ImN1cnJlbnRfbGFuZF92YWx1ZSIsInNjaWVudGlmaWNEaXNwbGF5Ijp0cnVlLCJjb2xvciI6InJhbmdlLWN1c3RvbSJ9LHsiYWxpZ25Nb250aCI6dHJ1ZSwidHlwZSI6ImNvbHVtbiIsImZ1bmMiOiJBVkciLCJ5QXhpcyI6ImN1cnJlbnRfbGFuZF92YWx1ZSIsInNjaWVudGlmaWNEaXNwbGF5Ijp0cnVlLCJjb2xvciI6InJhbmdlLUFjY2VudCJ9XSwieEF4aXMiOiJsZWdhbF90eXBlIiwibWF4cG9pbnRzIjo1MCwic29ydCI6IiIsInNlcmllc0JyZWFrZG93biI6InJlcG9ydF95ZWFyIiwic2VyaWVzQnJlYWtkb3duVGltZXNjYWxlIjoiIiwic3RhY2tlZCI6IiJ9XSwidGltZXNjYWxlIjoiIiwiZGlzcGxheUxlZ2VuZCI6dHJ1ZSwiYWxpZ25Nb250aCI6dHJ1ZSwic2luZ2xlQXhpcyI6ZmFsc2V9)
 
 ![image](https://github.com/user-attachments/assets/9867fabd-275c-4e72-9ab5-2a7f2702a47c)
@@ -35,6 +36,16 @@ I used the S3 bucket to store my dataset. By using AWS Glue Data Brew, I created
 I have used an S3 bucket for my data file. I used Standard storage since I needed to access the data regularly. Bucket bc-proptax-raw will have a folder (Property-Tax).
 
 **3-	Data Profiling:**
+
+![image](https://github.com/user-attachments/assets/92f85076-00f6-4ec9-97c7-9a4011a157ad)
+
+I have used AWS Glue Data Brew for Data Profiling. By creating a project called 'bc-proptax-project', I have created another bucket for the transform data. In that bucket, I have another folder for the Data Profiling output.
+
+Profile Output:
+
+![image](https://github.com/user-attachments/assets/be1db183-3570-4564-937c-20b5d52e2a81)
+
+**3-	Data Cleaning:**
 
 
 
