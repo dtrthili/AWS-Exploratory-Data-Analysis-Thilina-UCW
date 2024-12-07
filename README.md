@@ -21,6 +21,22 @@ o	Download the Property Tax report from the City of Vancouver - Open Data Portal
 
 ![image](https://github.com/user-attachments/assets/9867fabd-275c-4e72-9ab5-2a7f2702a47c)
 
+o	Design the process by using draw.io.
+
+![image](https://github.com/user-attachments/assets/7b9a58c5-2362-4f26-a67a-84dab1c01b7f)
+
+I used the S3 bucket to store my dataset. By using AWS Glue Data Brew, I created a project and cleaned my data (without null values/correct data formats, etc.). The cleaned data again stored in the S3 bucket in a different folder. By using AWS Glue, I created a pipeline to generate appropriate data and save it in a different folder in the S3 bucket.
+
+2-	Data Ingestion:
+
+![image](https://github.com/user-attachments/assets/5ac0c469-966d-4729-af0d-460551049ed4)
+
+I have used an S3 bucket for my data file. I used Standard storage since I needed to access the data regularly. Bucket bc-proptax-raw will have a folder (Property-Tax).
+
+3-	Data Profiling:
+
+
+
 o	Perform initial data cleaning, which includes handling missing values, correcting data types, and renaming columns for clarity.
 2-	Descriptive Statistics:
 o	Generate summary statistics (mean, median, mode) for numerical features (like Age and Fare) and frequency distributions for categorical features (like Pclass and Sex).
