@@ -112,5 +112,6 @@ o	Tools and Technologies:
 •	AWS - Amazon S3 / AWS Data Glue / Amazon Athena
 
 
+
 This EDA project not only demonstrates my analytical and programming skills but also highlights my ability to derive meaningful insights from data, making it a valuable addition to my data analyst portfolio.
 
